@@ -54,6 +54,7 @@ class MainActivity : AppCompatActivity() {
                 // intent - Class do proprio android
 
                 val intent = Intent(this, resultActivity::class.java)
+                intent.putExtra(KEY_RESULT_IMC, resultado)
                 startActivity(intent)
 
                 println("o valor do seu IMC é de: " + resultado)

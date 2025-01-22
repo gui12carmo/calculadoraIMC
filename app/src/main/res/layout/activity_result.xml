@@ -10,10 +10,11 @@
     tools:context=".resultActivity">
 
     <TextView
-        android:id="@+id/tv_resul"
+        android:id="@+id/tv_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
+        android:maxLength="5"
         android:textSize="60dp"
         tools:text="26.66" />
 
