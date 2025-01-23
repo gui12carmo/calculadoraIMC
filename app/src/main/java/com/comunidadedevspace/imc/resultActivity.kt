@@ -20,10 +20,21 @@ class resultActivity : AppCompatActivity() {
 
 
         val tvResult = findViewById<TextView>(R.id.tv_result)
-        val tvClassificacao = findViewById<TextView>(R.id.tv_classificacao_label)
-
+        val tvClassificacao = findViewById<TextView>(R.id.tv_resultado)
         tvResult.text = result.toString()
 
-        println("o valor do seu IMC é de: " + result)
+        val classificacao: String? = if(result <= 18.5f){
+            "MAGREZA"
+        }else if(result > 18.5f && result <= 24.9f){
+            "NORMAL"
+        }else if(result > 25f && result <= 29.9f){
+            "SOBREPESO"
+        }else if(result > 30f && result <= 39.9f){
+            "OBESIDADE"
+        }else {
+            "OBESIDADE GRAVE"
+        }
+
+        tvClassificacao.text = classificacao
     }
 }
