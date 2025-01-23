@@ -13,14 +13,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Recuperar os componentes da EditText
-        // Criar uma variavel e associar o componente de UI<TextInputEditText>
-        // Recuperar botão da tela
-
-        // Colocar ação no botão
-        // Recuperar o texto digitado no edt peso
-        // Recuperar o texto digitado no edt altura
-
         val edtPeso = findViewById<TextInputEditText>(R.id.edt_peso)
         val edtAltura = findViewById<TextInputEditText>(R.id.edt_altura)
 
@@ -31,7 +23,6 @@ class MainActivity : AppCompatActivity() {
             val alturaStr: String = edtAltura.text.toString()
 
             if (pesoStr == "" || alturaStr == "") {
-                // Mostra uma mensagem de erro ao user
 
                 Snackbar.make(
                     edtPeso,
@@ -39,17 +30,12 @@ class MainActivity : AppCompatActivity() {
                     Snackbar.LENGTH_LONG
                 )
                     .show()
-
             } else {
                 val peso = pesoStr.toFloat()
                 val altura = alturaStr.toFloat()
 
                 val alturaQ2 = altura * altura
                 val resultado = peso / alturaQ2
-
-                //Cores do app
-                // EditText background + icone
-                //Gradiente + icone + descricao
 
                 val intent = Intent(this, resultActivity::class.java)
                 intent.putExtra(KEY_RESULT_IMC, resultado)
