@@ -1,5 +1,5 @@
 # Calculadora IMC
-Desc
+No meu primeiro projeto no ambiente do Android Studio, desenvolvi uma calculadora de IMC em Kotlin. Com a ajuda da comunidade Devspace, consegui concluir o projeto com sucesso, aprendi muitas coisas novas e já estou pronto para seguir para o próximo.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
@@ -13,7 +13,7 @@ Techs
 ```
 The MIT License (MIT)
 
-Copyright (c) 2023 Roque Buarque Junior
+Copyright (c) 2025 Guilherme Vicente França do Carmo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
