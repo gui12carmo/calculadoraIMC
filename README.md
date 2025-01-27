@@ -8,7 +8,16 @@ No meu primeiro projeto no ambiente do Android Studio, desenvolvi uma calculador
 
 ## Tecnologias
 
-Techs
+- AppCompatActivity
+- Button
+- TextInputEditText
+- Intent
+- AppCompatActivity
+- TextView
+- ConstraintLayout
+- LinearLayout
+- ImageView
+- TextInputLayout e TextInputEditText
 
 
 ## License
