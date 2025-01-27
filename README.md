@@ -5,6 +5,9 @@ No meu primeiro projeto no ambiente do Android Studio, desenvolvi uma calculador
 <!-- You can add more screenshots here if you like -->
 Screenshots
 
+![image](https://github.com/user-attachments/assets/3d1b49ec-8fc3-4b4f-a51c-8b3d8f45a92a)
+![image](https://github.com/user-attachments/assets/b89f6d21-4880-416c-a698-49396b34a926)
+
 ## Tecnologias
 Techs
 
