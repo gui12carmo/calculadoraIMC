@@ -17,7 +17,7 @@ No meu primeiro projeto no ambiente do Android Studio, desenvolvi uma calculador
 - ConstraintLayout
 - LinearLayout
 - ImageView
-- TextInputLayout e TextInputEditText
+- TextInputLayout
 
 
 ## License
