@@ -7,6 +7,9 @@ No meu primeiro projeto no ambiente do Android Studio, desenvolvi uma calculador
 <img src="https://github.com/user-attachments/assets/b89f6d21-4880-416c-a698-49396b34a926" width="200">
 
 ## Tecnologias
+![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?logo=kotlin&logoColor=white)
 
 - AppCompatActivity
 - Button
